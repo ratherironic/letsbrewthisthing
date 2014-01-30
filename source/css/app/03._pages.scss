@@ -5,5 +5,36 @@
 
 
 /********************************************************** Layout */
-
-
+.step {
+  display: block;
+  height: 150px;
+  position: relative;
+  width: 100%;
+}
+.choose-style{
+  background-color: #CC961B;
+}
+.materials {
+  background-color: #CC961B;
+}
+.boil{
+  background-color: #3E8792;
+}
+.add-grain{
+  background-color: #3E8792;
+}
+.sugars-starches{
+  background-color: #3E8792;
+}
+.add-hops{
+  background-color: #CEBB8D;
+}
+.chill-wort{
+  background-color: #CC961B;
+}
+.move-fermenter{
+  background-color: #69C1D5;
+}
+.add-yeast{
+  background-color: #3E8792;
+}
