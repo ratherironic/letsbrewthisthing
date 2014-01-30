@@ -27,7 +27,11 @@
     END:PROD -->
 
     <!-- BEGIN:DEV -->
-    <link rel="stylesheet" href="css/min/app.min.css" />
+    <link rel="stylesheet" href="css/generated/00._global.css" />
+    <link rel="stylesheet" href="css/generated/01._typography.css" />
+    <link rel="stylesheet" href="css/generated/02._widgets.css" />
+    <link rel="stylesheet" href="css/generated/03._pages.css" />
+    <link rel="stylesheet" href="css/generated/05._shame.css" />
     <!-- END:DEV -->
 
     <!--[if IE 8]><script src="js/lib/modernizr-2.6.2.min.js"></script><![endif]-->
@@ -40,10 +44,26 @@
         <p>Javascript is currently disabled. Please <a href="http://www.google.com/support/bin/answer.py?answer=23852" target="_blank">enable javascript</a> for the optimal experience!</p>
       </noscript>
 
-      <header></header>
+      <header>
+        <h1>Let's brew this thing!</h1>
+      </header>
 
       <div id="content">
-        <h1>letsbrewthisthing</h1>
+        <div class="step choose-style">
+          <h2>Select A Style to Brew</h2>
+          <div class="brew">IPA</div>
+       </div>
+       <div class="step materials">
+          <h2>Do you have all the matterials you need?</h2>
+          <div class="brew">IPA</div>
+       </div>
+       <div class="step boil">boil</div>
+       <div class="step add-grain">grain</div>
+       <div class="step sugars-starches">starch</div>
+       <div class="step add-hops">hops</div>
+       <div class="step chill-wort">chill</div>
+       <div class="step move-fermenter">ferment</div>
+       <div class="step add-yeast">yeast</div>
       </div>
 
       <footer></footer>

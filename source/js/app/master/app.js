@@ -9,8 +9,8 @@ define('master/app', [
   'helpers/events',
   'helpers/analytics',
   'router',
-  'master/view/example'
-], function(settings, $, _, Modernizr, Backbone, Swig, console, Events, Analytics, AppRouter, ExampleView) {
+  'master/view/letsbrew'
+], function(settings, $, _, Modernizr, Backbone, Swig, console, Events, Analytics, AppRouter, LetsBrewView) {
 
   'use strict';
 
@@ -42,7 +42,7 @@ define('master/app', [
       App.cache.routers.appRouter = new AppRouter();
       Backbone.history.start();
 
-      App.cache.views.exampleView = new ExampleView();
+      App.cache.views.lefsbrewView = new LetsBrewView();
 
       console.log('App : Initialized');
 
